@@ -2,6 +2,7 @@
 {
     public class Livro
     {
+        //Aqui sao criadas as tabelas no Banco de dados
         public int LivroId { get; set; }
         public string Titulo { get; set; }
         public string Autor { get; set; }

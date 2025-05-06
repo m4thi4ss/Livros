@@ -2,6 +2,7 @@
 {
     public class Usuario
     {
+        //Aqui sao criadas as tabelas no Banco de dados
         public int UsuarioId { get; set; }
         public string NomeCompleto { get; set; }
         public string Email { get; set; }

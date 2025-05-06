@@ -12,7 +12,7 @@ using ProjetoLivros.Context;
 namespace ProjetoLivros.Migrations
 {
     [DbContext(typeof(LivrosContext))]
-    [Migration("20250501005722_Inicial")]
+    [Migration("20250506001910_Inicial")]
     partial class Inicial
     {
         /// <inheritdoc />
