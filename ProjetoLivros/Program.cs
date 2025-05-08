@@ -10,7 +10,7 @@ builder.Services.AddSwaggerGen();// Adiciono o Gerador de Swagger que seria app 
 
 
 builder.Services.AddDbContext<LivrosContext>();//Essa linha seria para a migracao do banco de dados
-builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();//Aqui ele esta informando para o C# que vai ter a interface e o repository da Categoria
 
 var app = builder.Build();//Juntamente com essa
 

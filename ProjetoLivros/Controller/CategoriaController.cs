@@ -29,7 +29,36 @@ namespace ProjetoLivros.Controller
         public IActionResult Cadastrar(Categoria categoria) //Aqui ele esta criando dentro do controller o metodo de Cadastrar
         {
             _repository.Cadastrar(categoria); //Aqui ele esta informando que sera cadastrado algo no repository
-            return Ok(); //E quando for cadastrado ele vai dar um retorno OK
+            return Ok(); //E quando for cadastrado ele vai dar um retorno 200
+        }
+        [HttpGet("{id}")]//Esse seria o Endpoint de leitura de dados, utilizado para os test de funcionalidade 
+        public IActionResult ListarPorId(int id) //Aqui seria a metodologia de ID para fazer o teste no swagger ou no postman
+        {
+            var categoria = _repository.ListarPorId(id); //Aqui ele vai procurar o ID 
+
+            if (categoria == null) return NotFound(); //Aqui ele vai verificar se o ID e existente se nao for ele vai voltar nulo
+
+            return Ok(categoria); // Aqui ele vai retornar se achar ele vai retornar a lista do ID solicitado e se nao achar o id ele vai dar 404
+        }
+
+        [HttpPut("{id}")]//Esse seria o endpoint de edicao.
+        public IActionResult Atualizar(int id, Categoria categoriaNova) //Aqui seria a metodologia de ID para fazer o teste no swagger ou no postman 
+        {
+            var categoriaAtualizada = _repository.Atualizar(id, categoriaNova); //Aqui ele vai procurar o ID que foi solicitado 
+
+            if (categoriaAtualizada == null) return NotFound();// Aqui se ele nao achar o id ele vai dar erro 400
+
+            return Ok(categoriaAtualizada); // Aqui ele vai retornar se achar ele vai atualizar o ID solicitado e se nao achar o id ele vai dar 404
+        }
+
+        [HttpDelete("{id}")]//Aqui seria o Endpoint de delete 
+        public IActionResult Deletar(int id) //Aqui seria a metodologia de ID para fazer o teste no swagger ou no postman 
+        {
+            var categoriaDeletada = _repository.Deletar(id); //Aqui ele vai procurar o ID que foi solicitado 
+
+            if (categoriaDeletada == null) return NotFound(); // Aqui se ele nao achar o id ele vai dar erro 400
+
+            return Ok(categoriaDeletada); //Aqui ele vai retornar se achar ele vai deletar o ID solicitado e se nao achar o ID ele vai dar o erro 400
         }
     }
 }
