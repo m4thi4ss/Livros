@@ -53,5 +53,11 @@ namespace ProjetoLivros.Repository
 
             
         }
+
+        public Categoria? ListaPorId(int id) //Esse seria o metodo que foi pego da interface de listar uma informacao na tabela Categoria
+        {
+            return _context.Categorias //Esse seria o codigo para gerar a lista da categoria quando solicitado. Ele esta retornando as informacoes da tabela que foi pega no context Categoria e essas informacoes serao mostradas como lista.
+                             .FirstOrDefault(c => c.CategoriaId == id); ; //Aqui ele esta buscando na tabela Categoria no context se tem o ID informado, e o FirstOrDefault ele e a mesma coisa que o Find so que o FirstOrDefault pode ser usado para qualquer campo.
+        }
     }
 }

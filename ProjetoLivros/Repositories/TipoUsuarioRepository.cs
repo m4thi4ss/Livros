@@ -3,19 +3,19 @@ using ProjetoLivros.Models;
 
 namespace ProjetoLivros.Repository
 {
-    public class LivroRepository : ILivro
+    public class TipoUsuarioRepository : ITipoUsuarioRepository
     {
-        public void Atualizar(int id, Livro livro)
+        public void Atualizar(int id, TipoUsuario tipoUsuario)
         {
             throw new NotImplementedException();
         }
 
-        public Livro BuscarPorId(int id)
+        public TipoUsuario BuscarPorId(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void Cadastrar(Livro livro)
+        public void Cadastrar(TipoUsuario tipoUsuario)
         {
             throw new NotImplementedException();
         }
@@ -25,7 +25,7 @@ namespace ProjetoLivros.Repository
             throw new NotImplementedException();
         }
 
-        public List<Livro> ListaTodos()
+        public List<TipoUsuario> ListaTodos()
         {
             throw new NotImplementedException();
         }

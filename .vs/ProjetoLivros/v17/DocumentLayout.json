@@ -1,74 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\",
+  "WorkspaceRootPath": "C:\\Users\\silva\\source\\repos\\Livros\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\fic\\downloads\\projetolivros\\projetolivros\\controller\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\controller\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\source\\repos\\livros\\projetolivros\\repositories\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\repositories\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\fic\\downloads\\projetolivros\\projetolivros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\source\\repos\\livros\\projetolivros\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\fic\\downloads\\projetolivros\\projetolivros\\context\\livroscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\context\\livroscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\source\\repos\\livros\\projetolivros\\interface\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\interface\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\fic\\downloads\\projetolivros\\projetolivros\\repository\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\repository\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\fic\\downloads\\projetolivros\\projetolivros\\interface\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\source\\repos\\livros\\projetolivros\\interface\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\interface\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\fic\\downloads\\projetolivros\\projetolivros\\interface\\itipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\interface\\itipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\source\\repos\\livros\\projetolivros\\controller\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\controller\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\fic\\downloads\\projetolivros\\projetolivros\\interface\\ilivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\interface\\ilivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\source\\repos\\livros\\projetolivros\\controller\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\controller\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\fic\\downloads\\projetolivros\\projetolivros\\repository\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\repository\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\source\\repos\\livros\\projetolivros\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\fic\\downloads\\projetolivros\\projetolivros\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\fic\\downloads\\projetolivros\\projetolivros\\interface\\iusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\interface\\iusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\fic\\downloads\\projetolivros\\projetolivros\\repository\\tipousuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\repository\\tipousuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\fic\\downloads\\projetolivros\\projetolivros\\projetolivros.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\projetolivros.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\fic\\downloads\\projetolivros\\projetolivros\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\fic\\downloads\\projetolivros\\projetolivros\\models\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\models\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\fic\\downloads\\projetolivros\\projetolivros\\models\\assinatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\models\\assinatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\fic\\downloads\\projetolivros\\projetolivros\\models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\fic\\downloads\\projetolivros\\projetolivros\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\source\\repos\\livros\\projetolivros\\interface\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\interface\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,216 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ILivro.cs",
-              "DocumentMoniker": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Interface\\ILivro.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Interface\\ILivro.cs",
-              "ToolTip": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Interface\\ILivro.cs",
-              "RelativeToolTip": "ProjetoLivros\\Interface\\ILivro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "LivroController.cs",
+              "DocumentMoniker": "C:\\Users\\silva\\source\\repos\\Livros\\ProjetoLivros\\Controller\\LivroController.cs",
+              "RelativeDocumentMoniker": "ProjetoLivros\\Controller\\LivroController.cs",
+              "ToolTip": "C:\\Users\\silva\\source\\repos\\Livros\\ProjetoLivros\\Controller\\LivroController.cs",
+              "RelativeToolTip": "ProjetoLivros\\Controller\\LivroController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T00:29:52.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoriaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Repository\\CategoriaRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Repository\\CategoriaRepository.cs",
-              "ToolTip": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Repository\\CategoriaRepository.cs",
-              "RelativeToolTip": "ProjetoLivros\\Repository\\CategoriaRepository.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAACkAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T00:28:39.666Z",
+              "WhenOpened": "2025-05-23T18:19:43.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "LivroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Repository\\LivroRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Repository\\LivroRepository.cs",
-              "ToolTip": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Repository\\LivroRepository.cs",
-              "RelativeToolTip": "ProjetoLivros\\Repository\\LivroRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\silva\\Source\\Repos\\Livros\\ProjetoLivros\\Interface\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoLivros\\Interface\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\silva\\Source\\Repos\\Livros\\ProjetoLivros\\Interface\\IUsuarioRepository.cs",
+              "RelativeToolTip": "ProjetoLivros\\Interface\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T00:31:05.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICategoriaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Interface\\ICategoriaRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Interface\\ICategoriaRepository.cs",
-              "ToolTip": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Interface\\ICategoriaRepository.cs",
-              "RelativeToolTip": "ProjetoLivros\\Interface\\ICategoriaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T00:24:42.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Program.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Program.cs",
-              "ToolTip": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Program.cs",
-              "RelativeToolTip": "ProjetoLivros\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T00:50:25.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LivrosContext.cs",
-              "DocumentMoniker": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Context\\LivrosContext.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Context\\LivrosContext.cs",
-              "ToolTip": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Context\\LivrosContext.cs",
-              "RelativeToolTip": "ProjetoLivros\\Context\\LivrosContext.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAswJAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T23:27:59Z",
+              "WhenOpened": "2025-05-23T17:41:43.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoriaController.cs",
-              "DocumentMoniker": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Controller\\CategoriaController.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Controller\\CategoriaController.cs",
-              "ToolTip": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Controller\\CategoriaController.cs",
-              "RelativeToolTip": "ProjetoLivros\\Controller\\CategoriaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Title": "LivroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\silva\\Source\\Repos\\Livros\\ProjetoLivros\\Repositories\\LivroRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoLivros\\Repositories\\LivroRepository.cs",
+              "ToolTip": "C:\\Users\\silva\\Source\\Repos\\Livros\\ProjetoLivros\\Repositories\\LivroRepository.cs",
+              "RelativeToolTip": "ProjetoLivros\\Repositories\\LivroRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T00:34:01.866Z",
+              "WhenOpened": "2025-05-23T17:26:25.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ITipoUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Interface\\ITipoUsuario.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Interface\\ITipoUsuario.cs",
-              "ToolTip": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Interface\\ITipoUsuario.cs",
-              "RelativeToolTip": "ProjetoLivros\\Interface\\ITipoUsuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\silva\\source\\repos\\Livros\\ProjetoLivros\\Controller\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "ProjetoLivros\\Controller\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\silva\\source\\repos\\Livros\\ProjetoLivros\\Controller\\CategoriaController.cs",
+              "RelativeToolTip": "ProjetoLivros\\Controller\\CategoriaController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T00:34:45.919Z"
+              "WhenOpened": "2025-05-23T16:53:54.148Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TipoUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Repository\\TipoUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Repository\\TipoUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Repository\\TipoUsuarioRepository.cs",
-              "RelativeToolTip": "ProjetoLivros\\Repository\\TipoUsuarioRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T00:36:13.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Interface\\IUsuario.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Interface\\IUsuario.cs",
-              "ToolTip": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Interface\\IUsuario.cs",
-              "RelativeToolTip": "ProjetoLivros\\Interface\\IUsuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T00:36:48.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Repository\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Repository\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Repository\\UsuarioRepository.cs",
-              "RelativeToolTip": "ProjetoLivros\\Repository\\UsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T00:38:09.134Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProjetoLivros.csproj",
-              "DocumentMoniker": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\ProjetoLivros.csproj",
-              "RelativeDocumentMoniker": "ProjetoLivros\\ProjetoLivros.csproj",
-              "ToolTip": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\ProjetoLivros.csproj",
-              "RelativeToolTip": "ProjetoLivros\\ProjetoLivros.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-06T00:17:45.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 1,
               "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Models\\Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\silva\\source\\repos\\Livros\\ProjetoLivros\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "ProjetoLivros\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\silva\\source\\repos\\Livros\\ProjetoLivros\\Models\\Categoria.cs",
               "RelativeToolTip": "ProjetoLivros\\Models\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAB+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T22:40:02.17Z"
+              "WhenOpened": "2025-05-23T16:53:35.89Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Models\\Usuario.cs",
-              "RelativeToolTip": "ProjetoLivros\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAswAQAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\silva\\Source\\Repos\\Livros\\ProjetoLivros\\Repositories\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoLivros\\Repositories\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\silva\\Source\\Repos\\Livros\\ProjetoLivros\\Repositories\\CategoriaRepository.cs",
+              "RelativeToolTip": "ProjetoLivros\\Repositories\\CategoriaRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T22:39:46.826Z"
+              "WhenOpened": "2025-05-23T16:49:52.609Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TipoUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Models\\TipoUsuario.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Models\\TipoUsuario.cs",
-              "ToolTip": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Models\\TipoUsuario.cs",
-              "RelativeToolTip": "ProjetoLivros\\Models\\TipoUsuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ICategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\silva\\source\\repos\\Livros\\ProjetoLivros\\Interface\\ICategoriaRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoLivros\\Interface\\ICategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\silva\\source\\repos\\Livros\\ProjetoLivros\\Interface\\ICategoriaRepository.cs",
+              "RelativeToolTip": "ProjetoLivros\\Interface\\ICategoriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAB6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T22:39:41.894Z"
+              "WhenOpened": "2025-05-23T16:49:02.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Livro.cs",
-              "DocumentMoniker": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Models\\Livro.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Models\\Livro.cs",
-              "ToolTip": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Models\\Livro.cs",
-              "RelativeToolTip": "ProjetoLivros\\Models\\Livro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ILivroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\silva\\Source\\Repos\\Livros\\ProjetoLivros\\Interface\\ILivroRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoLivros\\Interface\\ILivroRepository.cs",
+              "ToolTip": "C:\\Users\\silva\\Source\\Repos\\Livros\\ProjetoLivros\\Interface\\ILivroRepository.cs",
+              "RelativeToolTip": "ProjetoLivros\\Interface\\ILivroRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T22:39:05.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Assinatura.cs",
-              "DocumentMoniker": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Models\\Assinatura.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Models\\Assinatura.cs",
-              "ToolTip": "C:\\Users\\fic\\Downloads\\ProjetoLivros\\ProjetoLivros\\Models\\Assinatura.cs",
-              "RelativeToolTip": "ProjetoLivros\\Models\\Assinatura.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T22:36:25.21Z"
+              "WhenOpened": "2025-05-23T16:45:23.832Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -2,7 +2,7 @@
 
 namespace ProjetoLivros.Interface
 {
-    public interface IUsuario
+    public interface IUsuarioRepository
     {
         List<Usuario> ListaTodos();
         Usuario BuscarPorId(int id);

@@ -3,7 +3,7 @@ using ProjetoLivros.Models;
 
 namespace ProjetoLivros.Repository
 {
-    public class UsuarioRepository : IUsuario
+    public class UsuarioRepository : IUsuarioRepository
     {
         public void Atualizar(int id, Usuario usuario)
         {
