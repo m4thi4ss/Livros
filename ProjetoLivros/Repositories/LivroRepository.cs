@@ -11,18 +11,26 @@ namespace ProjetoLivros.Repository
         {
             _context = context; //Esse seria a insercao do ontext no construtor, para completar
         }
-        public void Atualizar(int id, Livro livro) //Aqui ele esta criando um void de atualizar sendo uma metodologia de editar puxada da interface
+        public Livro? Atualizar(int id, Livro livro) //Aqui ele esta criando um void de atualizar sendo uma metodologia de editar puxada da interface
         {
             // 1 - Procuro quem atualizar 
             var livroEncontrado = _context.Livros.FirstOrDefault(l => l.LivroId == id); // Esse ele esta buscando na tabela Livro no context se tem o ID informado, e o FirstOrDefault ele e a mesma coisa que o Find so que no Find so pode ser usado na primaria e o FirstOrDefault pode ser usado para qualquer campo.
 
             // 2 - Se nao acho, retorno nulo
-            if (livroEncontrado == null) return; //Aqui esta informando se ele nao achar a informacao ele vai dar um erro jsson
+            if (livroEncontrado == null) return null; //Aqui esta informando se ele nao achar a informacao ele vai dar um erro jsson
 
             // 3 - Se acho eu atualizo as informacoes
             livroEncontrado.Titulo = livro.Titulo; //Aqui esta informando que so pode ser atualizado na tabela Livro NomeLivro.
+            livroEncontrado.Autor = livro.Autor;//Aqui esta informando que so pode ser atualizado na tabela Livro Autor.
+            livroEncontrado.Descricao = livro.Descricao;//Aqui esta informando que so pode ser atualizado na tabela Livro Descrição
+            livroEncontrado.DataPublicacao = livro.DataPublicacao;//Aqui esta informando que so pode ser atualizado na tabela Livro DataPublicacao
+            livroEncontrado.CategoriaId = livro.CategoriaId;//Aqui esta informando que so pode ser atualizado na tabela livro CategoriaId
 
-            livroEncontrado.Autor = livro.Autor; //Aqui esta informando que so pode ser atualizado na tabela Livro Autor.
+            _context.SaveChanges(); //Aqui esta informando que vai salvar no banco de dados
+
+            return livroEncontrado; //Aqui ele vai retornar toda logica de programação que foi feita acima
+
+
         }
 
         public Livro BuscarPorId(int id) //Aqui esta informando que vai ser criado uma metodologia de buscar por Id

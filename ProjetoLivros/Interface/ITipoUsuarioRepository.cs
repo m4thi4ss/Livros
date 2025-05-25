@@ -5,9 +5,9 @@ namespace ProjetoLivros.Interface
     public interface ITipoUsuarioRepository
     {
         List<TipoUsuario> ListaTodos();
-        TipoUsuario BuscarPorId(int id);
+        TipoUsuario? BuscarPorId(int id);
         void Cadastrar(TipoUsuario tipoUsuario);
-        void Atualizar(int id, TipoUsuario tipoUsuario);
-        void Deletar(int id);
+        TipoUsuario? Atualizar(int id, TipoUsuario tipoUsuario);
+        TipoUsuario? Deletar(int id);
     }
 }

@@ -44,14 +44,14 @@ namespace ProjetoLivros.Repository
             // 1 - Procuro a informacao que eu quero apagar 
             var categoria = _context.Categorias.Find(id); //Esse codigo seria uma busca na tabela categoria no context a informacao que eu quero apagar pelo ID, por isso que usei o Find ponde busco pelo ID que seria a chave primaria onde ele so pode ser usado se for chave primaria 
             // 2 - Se nao achei, retorno nulo
-            if(categoria == null) return null; //Aqui esta informando se ele nao achar a informacao ele vai dar um erro jsson
+            if (categoria == null) return null; //Aqui esta informando se ele nao achar a informacao ele vai dar um erro jsson
             // 3 - Se achar ele vai deletar
             _context.Categorias.Remove(categoria); //E esse seria se ele achar a informacao ele vai deletar a mesma 
             _context.SaveChanges();// Aqui ele esta salvando no banco de dados esse metodo.
 
             return categoria;//Tem o return para a retornar o metodo delete se achar a informacao e se nao achar uma informacao ele vai retornar o NULL
 
-            
+
         }
 
         public Categoria? ListaPorId(int id) //Esse seria o metodo que foi pego da interface de listar uma informacao na tabela Categoria
