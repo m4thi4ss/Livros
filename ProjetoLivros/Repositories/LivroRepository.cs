@@ -28,7 +28,7 @@ namespace ProjetoLivros.Repository
 
             _context.SaveChanges(); //Aqui esta informando que vai salvar no banco de dados
 
-            return livroEncontrado; //Aqui ele vai retornar toda logica de programação que foi feita acima
+            return livroEncontrado; //Aqui ele vai retornar a metodologia que foi feito acima
 
 
         }

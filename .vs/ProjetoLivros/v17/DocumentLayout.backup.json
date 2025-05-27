@@ -1,58 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\",
+  "WorkspaceRootPath": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\livros\\projetolivros\\repositories\\tipousuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\repositories\\tipousuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\projetolivros\\repositories\\assinaturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\repositories\\assinaturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\livros\\projetolivros\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\projetolivros\\interface\\iassinaturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\interface\\iassinaturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\projetolivros\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\livros\\projetolivros\\controller\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\controller\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\projetolivros\\repositories\\tipousuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\repositories\\tipousuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\livros\\projetolivros\\controller\\tipousuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\controller\\tipousuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\livros\\projetolivros\\controller\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\controller\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\livros\\projetolivros\\repositories\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\projetolivros\\repositories\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\repositories\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\livros\\projetolivros\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\livros\\projetolivros\\interface\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\interface\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\livros\\projetolivros\\interface\\itipousuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\interface\\itipousuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\livros\\projetolivros\\interface\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\interface\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\livros\\projetolivros\\interface\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\interface\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\livros\\projetolivros\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\livros\\projetolivros\\controller\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\controller\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|c:\\users\\silva\\documents\\estudos senai\\projeto-api-livros\\projetolivros\\controller\\assinaturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC8AEE4F-A842-4537-B532-682FFE20BCD8}|ProjetoLivros\\ProjetoLivros.csproj|solutionrelative:projetolivros\\controller\\assinaturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,168 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Controller\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Controller\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Controller\\UsuarioController.cs",
-              "RelativeToolTip": "ProjetoLivros\\Controller\\UsuarioController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwDcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:24:55.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TipoUsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Controller\\TipoUsuarioController.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Controller\\TipoUsuarioController.cs",
-              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Controller\\TipoUsuarioController.cs",
-              "RelativeToolTip": "ProjetoLivros\\Controller\\TipoUsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:23:39.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Repositories\\UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\ProjetoLivros\\Repositories\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "ProjetoLivros\\Repositories\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\ProjetoLivros\\Repositories\\UsuarioRepository.cs",
               "RelativeToolTip": "ProjetoLivros\\Repositories\\UsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wD4AAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:20:42.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TipoUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Repositories\\TipoUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Repositories\\TipoUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Repositories\\TipoUsuarioRepository.cs",
-              "RelativeToolTip": "ProjetoLivros\\Repositories\\TipoUsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:20:29.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ITipoUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Interface\\ITipoUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Interface\\ITipoUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Interface\\ITipoUsuarioRepository.cs",
-              "RelativeToolTip": "ProjetoLivros\\Interface\\ITipoUsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:12:37.949Z",
+              "WhenOpened": "2025-05-27T17:50:44.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LivroController.cs",
-              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Controller\\LivroController.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Controller\\LivroController.cs",
-              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Controller\\LivroController.cs",
-              "RelativeToolTip": "ProjetoLivros\\Controller\\LivroController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAFAAAAAAAAAA==",
+              "Title": "LivroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\ProjetoLivros\\Repositories\\LivroRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoLivros\\Repositories\\LivroRepository.cs",
+              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\ProjetoLivros\\Repositories\\LivroRepository.cs",
+              "RelativeToolTip": "ProjetoLivros\\Repositories\\LivroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T18:19:43.126Z",
+              "WhenOpened": "2025-05-27T17:35:30.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Interface\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Interface\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Interface\\IUsuarioRepository.cs",
-              "RelativeToolTip": "ProjetoLivros\\Interface\\IUsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "TipoUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\ProjetoLivros\\Repositories\\TipoUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoLivros\\Repositories\\TipoUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\ProjetoLivros\\Repositories\\TipoUsuarioRepository.cs",
+              "RelativeToolTip": "ProjetoLivros\\Repositories\\TipoUsuarioRepository.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDoAAACuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T17:41:43.593Z",
+              "WhenOpened": "2025-05-27T17:26:40.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssinaturaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\ProjetoLivros\\Repositories\\AssinaturaRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoLivros\\Repositories\\AssinaturaRepository.cs",
+              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\ProjetoLivros\\Repositories\\AssinaturaRepository.cs",
+              "RelativeToolTip": "ProjetoLivros\\Repositories\\AssinaturaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T16:57:05.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAssinaturaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\ProjetoLivros\\Interface\\IAssinaturaRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoLivros\\Interface\\IAssinaturaRepository.cs",
+              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\ProjetoLivros\\Interface\\IAssinaturaRepository.cs",
+              "RelativeToolTip": "ProjetoLivros\\Interface\\IAssinaturaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T16:48:06.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "LivroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Repositories\\LivroRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Repositories\\LivroRepository.cs",
-              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Repositories\\LivroRepository.cs",
-              "RelativeToolTip": "ProjetoLivros\\Repositories\\LivroRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAJAAAAAAAAAA==",
+              "Title": "AssinaturaController.cs",
+              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\ProjetoLivros\\Controller\\AssinaturaController.cs",
+              "RelativeDocumentMoniker": "ProjetoLivros\\Controller\\AssinaturaController.cs",
+              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\ProjetoLivros\\Controller\\AssinaturaController.cs",
+              "RelativeToolTip": "ProjetoLivros\\Controller\\AssinaturaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T17:26:25.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CategoriaController.cs",
-              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Controller\\CategoriaController.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Controller\\CategoriaController.cs",
-              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Controller\\CategoriaController.cs",
-              "RelativeToolTip": "ProjetoLivros\\Controller\\CategoriaController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAB/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T16:53:54.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Models\\Categoria.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Models\\Categoria.cs",
-              "RelativeToolTip": "ProjetoLivros\\Models\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T16:53:35.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoriaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Repositories\\CategoriaRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Repositories\\CategoriaRepository.cs",
-              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Repositories\\CategoriaRepository.cs",
-              "RelativeToolTip": "ProjetoLivros\\Repositories\\CategoriaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T16:49:52.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ICategoriaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Interface\\ICategoriaRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Interface\\ICategoriaRepository.cs",
-              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Interface\\ICategoriaRepository.cs",
-              "RelativeToolTip": "ProjetoLivros\\Interface\\ICategoriaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAB6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T16:49:02.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ILivroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Interface\\ILivroRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoLivros\\Interface\\ILivroRepository.cs",
-              "ToolTip": "C:\\Users\\silva\\Documents\\ESTUDOS SENAI\\Projeto-API-Livros\\Livros\\ProjetoLivros\\Interface\\ILivroRepository.cs",
-              "RelativeToolTip": "ProjetoLivros\\Interface\\ILivroRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T16:45:23.832Z",
+              "WhenOpened": "2025-05-27T17:15:28.027Z",
               "EditorCaption": ""
             }
           ]

@@ -22,7 +22,8 @@ namespace ProjetoLivros.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) //Ele seria o metodo que vai configurar a string de conexao
         {
-            optionsBuilder.UseSqlServer("Data Source=NOTE46-S28;Initial Catalog=Livros;User Id=sa;Password=Senai@134;TrustServerCertificate=true;");//Esse seria qual a string de conexao de banco de dados que vamos utilizar 
+            //optionsBuilder.UseSqlServer("Data Source=NOTE46-S28;Initial Catalog=Livros;User Id=sa;Password=Senai@134;TrustServerCertificate=true;");//Esse seria qual a string de conexao de banco de dados que vamos utilizar 
+            optionsBuilder.UseSqlServer("Data Source=ALIEN_PURPLE\\SQLEXPRESS;Initial Catalog=Livros;User Id=sa;Password=Senha123;TrustServerCertificate=true;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)//Aqui e a configuracao das tipos de atributos(string, int...), quantos caracteres...
