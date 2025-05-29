@@ -9,7 +9,8 @@ namespace ProjetoLivros.Controller
     [ApiController]
     public class LivroController : ControllerBase //Esse codigo e o codigo acima ele vem automatico quando você cria um controller de API vazio, se nao estiver com essas informações acima, você criou o controller errado.
     {
-        private readonly ILivroRepository _repository; //Esse seria a leitura das informações no LivroRepository
+        //Injetando o repository
+        private readonly ILivroRepository _repository; // Criar uma variavel para guardar a interface ILivroRepository 
 
         public LivroController(ILivroRepository repository) //Esse seria o construtor que e criado CTOR e apos ele ser criado colocar o _repository = repository;.
         {

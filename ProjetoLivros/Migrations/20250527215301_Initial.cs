@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ProjetoLivros.Migrations
 {
     /// <inheritdoc />
-    public partial class Inicial : Migration
+    public partial class Initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -17,7 +17,7 @@ namespace ProjetoLivros.Migrations
                 {
                     CategoriaId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    NomeCategoria = table.Column<int>(type: "int", nullable: false)
+                    NomeCategoria = table.Column<int>(type: "int", maxLength: 200, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -30,7 +30,7 @@ namespace ProjetoLivros.Migrations
                 {
                     TipoUsuarioId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    DescricaoTipo = table.Column<int>(type: "int", nullable: false)
+                    DescricaoTipo = table.Column<int>(type: "int", maxLength: 100, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -43,9 +43,9 @@ namespace ProjetoLivros.Migrations
                 {
                     LivroId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Titulo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Autor = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Descricao = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Titulo = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
+                    Autor = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
+                    Descricao = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
                     DataPublicacao = table.Column<DateTime>(type: "datetime2", nullable: false),
                     CategoriaId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -91,7 +91,7 @@ namespace ProjetoLivros.Migrations
                 {
                     AssinaturaId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Status = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
                     DataInicio = table.Column<DateTime>(type: "datetime2", nullable: false),
                     DataFim = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UsuarioId = table.Column<int>(type: "int", nullable: false)
@@ -116,6 +116,12 @@ namespace ProjetoLivros.Migrations
                 name: "IX_Livros_CategoriaId",
                 table: "Livros",
                 column: "CategoriaId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_TiposUsuarios_DescricaoTipo",
+                table: "TiposUsuarios",
+                column: "DescricaoTipo",
+                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "IX_Usarios_Email",

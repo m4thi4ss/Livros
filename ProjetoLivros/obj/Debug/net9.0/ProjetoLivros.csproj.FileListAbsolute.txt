@@ -508,10 +508,10 @@ C:\Users\silva\Documents\ESTUDOS SENAI\Projeto-API-Livros\ProjetoLivros\obj\Debu
 C:\Users\silva\Documents\ESTUDOS SENAI\Projeto-API-Livros\ProjetoLivros\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.ProjetoLivros.props
 C:\Users\silva\Documents\ESTUDOS SENAI\Projeto-API-Livros\ProjetoLivros\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.ProjetoLivros.props
 C:\Users\silva\Documents\ESTUDOS SENAI\Projeto-API-Livros\ProjetoLivros\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\silva\Documents\ESTUDOS SENAI\Projeto-API-Livros\ProjetoLivros\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\silva\Documents\ESTUDOS SENAI\Projeto-API-Livros\ProjetoLivros\obj\Debug\net9.0\ProjetoL.8D150E03.Up2Date
 C:\Users\silva\Documents\ESTUDOS SENAI\Projeto-API-Livros\ProjetoLivros\obj\Debug\net9.0\ProjetoLivros.dll
 C:\Users\silva\Documents\ESTUDOS SENAI\Projeto-API-Livros\ProjetoLivros\obj\Debug\net9.0\refint\ProjetoLivros.dll
 C:\Users\silva\Documents\ESTUDOS SENAI\Projeto-API-Livros\ProjetoLivros\obj\Debug\net9.0\ProjetoLivros.pdb
 C:\Users\silva\Documents\ESTUDOS SENAI\Projeto-API-Livros\ProjetoLivros\obj\Debug\net9.0\ProjetoLivros.genruntimeconfig.cache
 C:\Users\silva\Documents\ESTUDOS SENAI\Projeto-API-Livros\ProjetoLivros\obj\Debug\net9.0\ref\ProjetoLivros.dll
+C:\Users\silva\Documents\ESTUDOS SENAI\Projeto-API-Livros\ProjetoLivros\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

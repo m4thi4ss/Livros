@@ -17,7 +17,7 @@ namespace ProjetoLivros.Repository
             var livroEncontrado = _context.Livros.FirstOrDefault(l => l.LivroId == id); // Esse ele esta buscando na tabela Livro no context se tem o ID informado, e o FirstOrDefault ele e a mesma coisa que o Find so que no Find so pode ser usado na primaria e o FirstOrDefault pode ser usado para qualquer campo.
 
             // 2 - Se nao acho, retorno nulo
-            if (livroEncontrado == null) return null; //Aqui esta informando se ele nao achar a informacao ele vai dar um erro jsson
+            if (livroEncontrado == null) return null; //Aqui ele vai verificar se a variavel acima esta retornando nulo, se estiver ele vai gerar um erro
 
             // 3 - Se acho eu atualizo as informacoes
             livroEncontrado.Titulo = livro.Titulo; //Aqui esta informando que so pode ser atualizado na tabela Livro NomeLivro.
@@ -36,7 +36,7 @@ namespace ProjetoLivros.Repository
         public Livro BuscarPorId(int id) //Aqui esta informando que vai ser criado uma metodologia de buscar por Id
         {
             var livro = _context.Livros.FirstOrDefault(l => l.LivroId == id); //Esse seria o codigo para gerar a lista do livro quando solicitado. Ele esta retornando as informacoes da tabela que foi pega no context Livro e essas informacoes serao mostradas como lista.
-            if (livro == null) return null; //Aqui ele vai verificar se o ID e existente se nao for ele vai voltar nulo
+            if (livro == null) return null; //Aqui ele vai verificar se a variavel acima esta retornando nulo, se estiver ele vai gerar um erro
             _context.SaveChanges(); // Aqui ele esta salvando no banco de dados esse metodo.
             return livro; // Aqui ele vai retornar se achar ele vai retornar a lista do ID solicitado e se nao achar o id ele vai dar 404
         }
@@ -53,7 +53,7 @@ namespace ProjetoLivros.Repository
             var livro = _context.Livros.Find(id); //Esse codigo seria uma busca na tabela livro no context a informacao que eu quero apagar pelo ID, por isso que usei o Find ponde busco pelo ID que seria a chave primaria onde ele so pode ser usado se for chave primaria
 
             //2 - Se eu não achar vou retornar Nulo
-            if (livro == null) return null; //Aqui ele esta informando se a informação não tem no livro, ele vai retornar nulo.
+            if (livro == null) return null; //Aqui ele vai verificar se a variavel acima esta retornando nulo, se estiver ele vai gerar um erro
 
             //3 - Se ele achar ele vai deletar 
             _context.Livros.Remove(livro); //Aqui se ele achar, ele vai remover as informação do livro  

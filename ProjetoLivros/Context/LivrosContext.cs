@@ -23,7 +23,7 @@ namespace ProjetoLivros.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) //Ele seria o metodo que vai configurar a string de conexao
         {
             //optionsBuilder.UseSqlServer("Data Source=NOTE46-S28;Initial Catalog=Livros;User Id=sa;Password=Senai@134;TrustServerCertificate=true;");//Esse seria qual a string de conexao de banco de dados que vamos utilizar 
-            optionsBuilder.UseSqlServer("Data Source=ALIEN_PURPLE\\SQLEXPRESS;Initial Catalog=Livros;User Id=sa;Password=Senha123;TrustServerCertificate=true;");
+            optionsBuilder.UseSqlServer("Data Source=ALIEN_PURPLE\\SQLEXPRESS2;Initial Catalog=Livros;User Id=sa;Password=senha123;TrustServerCertificate=true;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)//Aqui e a configuracao das tipos de atributos(string, int...), quantos caracteres...
@@ -107,7 +107,7 @@ namespace ProjetoLivros.Context
                 //RELACIONAMENTO DE 1 PARA MUITOS (1-N)
                 entity.HasOne(l => l.Categoria) //Aqui ta informando que tem uma chave estrageira que seria o usuario tem Categoria
                    .WithMany(c => c.Livros) //E nesse ta avisando que que nCategoria tem muitos Livros.
-                   .HasForeignKey(l => l.Categoria)//Ta informando que essa e uma chave estrageira dentro do Usuario
+                   .HasForeignKey(l => l.CategoriaId)//Ta informando que essa e uma chave estrageira dentro do Usuario
                    .OnDelete(DeleteBehavior.Cascade);//Aqui esta informando o que vai acontecer quando apagar um Tipo. Tem 3 tipos de Delete cascade: Se apagar um TipoUsuario ele vai apagar todos os usuarios. NoAction: Nao faz nada, mas ele nao deixa voce apagar o TipoUsuario. SetNull: Apagou algum Tipo, ele nao apaga os usuarios do tipo que foi apagado, mas ele da Null nos usuarios e o usuario fica considerado como se nao fosse nada mais continuar na tabela. 
             });
             modelBuilder.Entity<Categoria>(entity =>
@@ -137,7 +137,7 @@ namespace ProjetoLivros.Context
 
                 entity.HasOne(a => a.Usuario) //Aqui ta informando que tem uma chave estrageira que seria o usuario tem Usuario
                    .WithMany() //Aqui esta vazio por que no models na parte de usuario nao tem a list Assinatura e so vai ter o TipoUsuario, nao tem problema de nao ter so deixar vazio
-                   .HasForeignKey(a => a.Usuario)//Ta informando que essa e uma chave estrageira dentro do Usuario
+                   .HasForeignKey(a => a.UsuarioId)//Ta informando que essa e uma chave estrageira dentro do Usuario
                    .OnDelete(DeleteBehavior.Cascade);//Aqui esta informando o que vai acontecer quando apagar um Tipo. Tem 3 tipos de Delete cascade: Se apagar um TipoUsuario ele vai apagar todos os usuarios. NoAction: Nao faz nada, mas ele nao deixa voce apagar o TipoUsuario. SetNull: Apagou algum Tipo, ele nao apaga os usuarios do tipo que foi apagado, mas ele da Null nos usuarios e o usuario fica considerado como se nao fosse nada mais continuar na tabela.
             });
 

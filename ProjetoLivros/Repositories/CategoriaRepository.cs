@@ -30,8 +30,7 @@ namespace ProjetoLivros.Repository
             // 1 - Procuro quem atualizar 
             var categoriaEcontrado = _context.Categorias.FirstOrDefault(c => c.CategoriaId == id); // Esse ele esta buscando na tabela Categoria no context se tem o ID informado, e o FirstOrDefault ele e a mesma coisa que o Find so que no Find so pode ser usado na primaria e o FirstOrDefault pode ser usado para qualquer campo.
             // 2 - Se nao acho, retorno nulo
-            if (categoriaEcontrado == null) return null;//Aqui esta informando se ele nao achar a informacao ele vai dar um erro jsson
-            // 3 - Se acho eu atualizo as informacoes 
+            if (categoriaEcontrado == null) return null;//Aqui ele vai verificar se a variavel acima esta retornando nulo, se estiver ele vai gerar um erro
             categoriaEcontrado.NomeCategoria = categoria.NomeCategoria; //Aqui esta informando que so pode ser atualizado na tabela Categoria NomeCategoria.
             _context.SaveChanges();// Aqui ele esta salvando no banco de dados esse metodo.
 
@@ -44,7 +43,7 @@ namespace ProjetoLivros.Repository
             // 1 - Procuro a informacao que eu quero apagar 
             var categoria = _context.Categorias.Find(id); //Esse codigo seria uma busca na tabela categoria no context a informacao que eu quero apagar pelo ID, por isso que usei o Find ponde busco pelo ID que seria a chave primaria onde ele so pode ser usado se for chave primaria 
             // 2 - Se nao achei, retorno nulo
-            if (categoria == null) return null; //Aqui esta informando se ele nao achar a informacao ele vai dar um erro jsson
+            if (categoria == null) return null; //Aqui ele vai verificar se a variavel acima esta retornando nulo, se estiver ele vai gerar um erro
             // 3 - Se achar ele vai deletar
             _context.Categorias.Remove(categoria); //E esse seria se ele achar a informacao ele vai deletar a mesma 
             _context.SaveChanges();// Aqui ele esta salvando no banco de dados esse metodo.

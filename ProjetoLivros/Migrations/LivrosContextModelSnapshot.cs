@@ -38,7 +38,9 @@ namespace ProjetoLivros.Migrations
 
                     b.Property<string>("Status")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<int>("UsuarioId")
                         .HasColumnType("int");
@@ -59,6 +61,8 @@ namespace ProjetoLivros.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoriaId"));
 
                     b.Property<int>("NomeCategoria")
+                        .HasMaxLength(200)
+                        .IsUnicode(true)
                         .HasColumnType("int");
 
                     b.HasKey("CategoriaId");
@@ -76,7 +80,9 @@ namespace ProjetoLivros.Migrations
 
                     b.Property<string>("Autor")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<int>("CategoriaId")
                         .HasColumnType("int");
@@ -85,11 +91,15 @@ namespace ProjetoLivros.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Descricao")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(255)
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("Titulo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(200)");
 
                     b.HasKey("LivroId");
 
@@ -107,9 +117,14 @@ namespace ProjetoLivros.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TipoUsuarioId"));
 
                     b.Property<int>("DescricaoTipo")
+                        .HasMaxLength(100)
+                        .IsUnicode(true)
                         .HasColumnType("int");
 
                     b.HasKey("TipoUsuarioId");
+
+                    b.HasIndex("DescricaoTipo")
+                        .IsUnique();
 
                     b.ToTable("TiposUsuarios");
                 });

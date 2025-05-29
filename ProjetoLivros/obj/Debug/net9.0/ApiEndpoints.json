@@ -1,5 +1,84 @@
 [
   {
+    "ContainingType": "ProjetoLivros.Controller.AssinaturaController",
+    "Method": "ListarTodos",
+    "RelativePath": "api/Assinatura",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoLivros.Controller.AssinaturaController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/Assinatura",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assinatura",
+        "Type": "ProjetoLivros.Models.Assinatura",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoLivros.Controller.AssinaturaController",
+    "Method": "Atualizar",
+    "RelativePath": "api/Assinatura/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "assinatura",
+        "Type": "ProjetoLivros.Models.Assinatura",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoLivros.Controller.AssinaturaController",
+    "Method": "Deletar",
+    "RelativePath": "api/Assinatura/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoLivros.Controller.AssinaturaController",
+    "Method": "ListarPorId",
+    "RelativePath": "api/Assinatura/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProjetoLivros.Controller.CategoriaController",
     "Method": "ListarTodos",
     "RelativePath": "api/Categoria",
